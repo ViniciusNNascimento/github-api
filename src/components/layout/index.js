@@ -5,11 +5,11 @@ import useGithub from '../hooks/github-hooks';
 
 function Layout({ children }) {
 
-    const { githubState } = useGithub()
+    
 
-    return (
+    return ( 
         <S.WrapperLayout>
-            <Header />
+            <Header /> 
             {children}
         </S.WrapperLayout>
     )
